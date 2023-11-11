@@ -1,12 +1,16 @@
 import { View, Image, TouchableOpacity, Text } from "react-native";
+
 import formatDay from "../../utils/formatDay";
 import styles from "../../style/styles";
 
-const UserCard = () => {
+const UserCard = ({ navigation }: { navigation: any }) => {
   const dayFormat = formatDay();
 
   return (
-    <TouchableOpacity style={{ marginBottom: 15 }}>
+    <TouchableOpacity
+      style={{ marginBottom: 15 }}
+      onPress={() => navigation.push("Chat")}
+    >
       <View style={styles.userCard}>
         {/* view image */}
         <View>

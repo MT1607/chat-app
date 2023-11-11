@@ -14,7 +14,11 @@ const MainStack = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Main" component={MainScreen} />
-      <Stack.Screen name="Chat" component={ChatScreen} />
+      <Stack.Screen
+        options={{ headerShown: true }}
+        name="Chat"
+        component={ChatScreen}
+      />
     </Stack.Navigator>
   );
 };

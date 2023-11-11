@@ -27,7 +27,7 @@ const SignIn = ({ navigation }: { navigation: any }) => {
       <View style={styles.viewLogo}>
         <Image
           source={{
-            uri: `https://firebasestorage.googleapis.com/v0/b/message-app-b0e83.appspot.com/o/DH-Hoa-Sen-Main-Icon.png?alt=media&token=e67fe95b-65cd-4059-91c8-bc8f00c68a29&_gl=1*10cuo6s*_ga*MTMyOTQzNTY0NS4xNjk3Mjk0MjU5*_ga_CW55HF8NVT*MTY5ODkzMDMwMi4xMi4xLjE2OTg5MzA2MTkuNTMuMC4w`,
+            uri: `https://firebasestorage.googleapis.com/v0/b/message-app-b0e83.appspot.com/o/DH-Hoa-Sen-Main-Icon.png?alt=media&token=e67fe95b-65cd-4059-91c8-bc8f00c68a29`,
           }}
           style={styles.logo}
         />

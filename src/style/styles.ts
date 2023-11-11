@@ -9,6 +9,17 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
   },
 
+  chatContainer: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    borderTopWidth: 1,
+    borderTopColor: "#ccc",
+    padding: 10,
+    backgroundColor: "white",
+  },
+
   viewContainer: {
     flex: 1,
     backgroundColor: colors.background,
@@ -35,6 +46,18 @@ const styles = StyleSheet.create({
 
   viewRow: {
     flexDirection: "row",
+    alignItems: "center",
+  },
+
+  viewChat: {
+    display: "flex",
+    flexDirection: "column",
+  },
+
+  viewAvatarAndBorderChat: {
+    display: "flex",
+    flexDirection: "row",
+    marginTop: 10,
   },
 
   text: {
@@ -76,6 +99,14 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     width: 320,
   },
+  inputChatField: {
+    borderWidth: 1,
+    margin: 10,
+    padding: 5,
+    backgroundColor: colors.white,
+    borderRadius: 5,
+    width: 300,
+  },
 
   button: {
     alignItems: "center",
@@ -108,6 +139,22 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 50 / 2,
     marginLeft: 10,
+  },
+
+  avatarSmall: {
+    width: 20,
+    height: 20,
+    borderRadius: 20 / 2,
+  },
+
+  boxChat: {
+    borderWidth: 1,
+    borderBlockColor: "#111111",
+    borderTopLeftRadius: 10,
+    borderBottomRightRadius: 10,
+    marginLeft: 10,
+    marginRight: 15,
+    marginBottom: 10,
   },
 });
 
